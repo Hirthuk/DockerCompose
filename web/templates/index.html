@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docker Compose App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #007bff;
+            color: white;
+            padding: 20px;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background: #007bff;
+            color: white;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Docker Compose Web + Database App</h1>
+    </header>
+    <main>
+        <p>{{ db_status }}</p>
+    </main>
+    <footer>
+        <p>Powered by Docker Compose</p>
+    </footer>
+</body>
+</html>
